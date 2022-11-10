@@ -12,8 +12,8 @@
   p {
   font-family: "Lucida Console", "Courier New", monospace;
 }
-/*header and footer*/
-header{
+/*header and footer css*/
+.header{
   padding: 20px;
   text-align: center;
   background: #02053d;
@@ -21,7 +21,7 @@ header{
   border: 3px solid white;
   margin: 25px 50px;
 }
-footer{
+.footer{
   padding:10px;
   text-align:center;
   background: #ffcff0;
