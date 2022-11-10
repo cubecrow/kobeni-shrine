@@ -1,5 +1,70 @@
 /*testing*/
+/* copied from my site code on neocities... i am lazy lol */
 
-body{
-  background color: pink;
+  body {
+ padding: 15px;
+ background-color: lightpink;
+ text-align: center;
+ font-family: Verdana; /*header font??? I think??*/
 }
+
+/* standard text font */
+  p {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+/*header and footer*/
+.header{
+  padding: 20px;
+  text-align: center;
+  background: #02053d;
+  color: white;
+  border: 3px solid white;
+  margin: 25px 50px;
+}
+.footer{
+  padding:10px;
+  text-align:center;
+  background: #ffcff0;
+  color: white;
+  border: 3px solid white;
+  margin: 15px 25px;}
+/*columns/mains */
+
+.column {
+  float: left;
+  border:3px solid black;
+  overflow: auto;
+  padding: 10px;
+  display: block;
+}
+.column.left{
+  background: #ffcff0;
+  width: 15%;
+  text-align: left;
+  margin-left: 5%;
+}
+
+.column.right {
+  text-align: center;
+  align-content: center;
+  margin: auto;
+  width: 50%;
+  background-image: url("https://wallpapercave.com/wp/wp5785939.jpg");
+  padding: 10px;
+}
+
+.row:after {   /* Clear floats after the columns */
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* end h&m textboxes; start LINKS ??not working for some reason??*/
+a:link, a:visited {
+  color: #ffadfe;
+}
+a:hover {
+  text-decoration: underline;
+  color: #ffc9fe;
+}
+a:active {color: #ffadfe;}
