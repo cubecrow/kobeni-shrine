@@ -68,3 +68,12 @@ a:hover {
   color: #ffc9fe;
 }
 a:active {color: #ffadfe;}
+
+.scroll  {
+  border: 3px solid white;
+  padding: 5px;
+  background-color: pink;
+  width: 200px;
+  height: 200px;
+  overflow: auto;
+}
