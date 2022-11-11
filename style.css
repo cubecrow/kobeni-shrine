@@ -16,7 +16,7 @@
 .header{
   padding: 20px;
   text-align: center;
-  background: #02053d;
+  background: pink;
   color: white;
   border: 3px solid white;
   margin: 25px 50px;
@@ -65,9 +65,9 @@ a:link, a:visited {
 }
 a:hover {
   text-decoration: underline;
-  color: #ffc9fe;
+  color: black;
 }
-a:active {color: #ffadfe;}
+a:active {color: black;}
 
 .scroll  {
   border: 3px solid white;
