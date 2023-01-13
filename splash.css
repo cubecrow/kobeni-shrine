@@ -1,81 +1,93 @@
-/*testing*/
-/* copied from my site code on neocities... i am lazy lol */
-
-  body {
- padding: 15px;
- background-color: lightpink;
- text-align: center;
- font-family: Verdana; /*header font??? I think??*/
-}
-
-/* standard text font */
-  p {
-  font-family: "Lucida Console", "Courier New", monospace;
-}
-/*header and footer css*/
-.header{
-  padding: 20px;
-  text-align: center;
-  background: pink;
-  color: white;
-  border: 3px solid white;
-  margin: 25px 50px;
-}
-.footer{
-  padding:10px;
-  text-align:center;
-  background: #ffcff0;
-  color: white;
-  border: 3px solid white;
-  margin: 15px 25px;}
-/*columns/mains */
-
-.column {
-  float: left;
-  border:3px solid white;
-  overflow: auto;
-  padding: 10px;
-  display: block;
-}
-.column.left{
-  background: #ffcff0;
-  width: 15%;
-  text-align: left;
-  margin-left: 10%;
-}
-
-.column.right {
-  text-align: center;
-  align-content: center;
-  margin: auto;
-  width: 50%;
-  background-image: url("https://static.vecteezy.com/system/resources/previews/007/888/270/original/mix-ice-cream-seamless-pattern-on-white-background-free-vector.jpg");
-  background-repeat: repeat;
-  background-size: 100px 100px
-  padding: 10px;
-}
-
-.row:after {   /* Clear floats after the columns */
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* end h&m textboxes; start LINKS ??not working for some reason??*/
-a:link, a:visited {
-  color: black;
-}
-a:hover {
-  text-decoration: underline;
-  color: white;
-}
-a:active {color: white;}
-
-.scroll  {
-  border: 3px solid white;
-  padding: 5px;
-  background-color: pink;
-  width: 200px;
-  height: 200px;
-  overflow: auto;
-}
+body {
+  background: url(https://eggramen.neocities.org/cinnamonbird_cairoovercoat_roxy2alt.png);
+  color: #860000;
+  font-family: "Consolas", monospace;
+  /*text-align:center;*/
+  
+  
+  }
+  
+  a {
+    color: #cc0000
+    }
+    
+  small {
+    font-size:10pt;
+    }
+    
+  .box {
+    border: 4px solid #ff75a8;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    border-radius: 30px;
+    background-color:#ffddee;
+    
+    }
+    
+  .box-narrow {
+    border: 4px solid #ff75a8;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    border-radius: 30px;
+    background-color:#ffddee;
+    
+    }
+    
+  .box-narrowest {
+    border: 4px solid #ff75a8;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 4%;
+    padding-right: 4%;
+    border-radius: 30px;
+    background-color:#ffddee;
+    
+    }
+    
+    h1 {
+    text-align: center;
+    border: 4px solid #ff75a8;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    border-radius: 30px;
+    background-color:#ffddee
+      }
+      
+    h2 {
+    text-align: center;
+    border: 3px solid #ff75a8;
+    margin-left: 22%;
+    margin-right: 22%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    border-radius: 30px;
+    background-color:#ffddee
+      }
+      
+    h4 {
+      text-align: center;
+      }
+      
+    h5 {
+      text-align: center;
+      }
+      
+    center {
+      text-align: center;
+      }
