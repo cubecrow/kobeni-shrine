@@ -1,9 +1,9 @@
 :root {
-     --dk-color:#bf776b;
-     --mid-color:#f2b1a4;
-     --lt-color:#ffe8e3;
-     --dkest-color:#8e534a;
-     --accent:#226051;
+     --dk-color:#af6a8c;
+     --mid-color:#f2a6a6;
+     --lt-color:#ffb3da;
+     --dkest-color:#8b4b6b;
+     --accent:#40215e;
 }
  html, body {
      margin:0;
