@@ -40,6 +40,7 @@ body {
     border-radius: 30px;
     text-align: center;
     background-color:#ffddee;
+    align-content: center;
     
     }
     
@@ -53,6 +54,7 @@ body {
     padding-right: 4%;
     border-radius: 30px;
     background-color:#ffddee;
+    align-content: center;
     
     }
     
@@ -66,7 +68,8 @@ body {
     padding-left: 1.5%;
     padding-right: 1.5%;
     border-radius: 30px;
-    background-color:#ffddee
+    background-color:#ffddee;
+    align-content: center;
       }
       
     h2 {
@@ -79,17 +82,21 @@ body {
     padding-left: 1.5%;
     padding-right: 1.5%;
     border-radius: 30px;
-    background-color:#ffddee
+    background-color:#ffddee;
+      align-content: center;
       }
       
     h4 {
       text-align: center;
+      align-content: center;
       }
       
     h5 {
       text-align: center;
+      align-content: center;
       }
       
     center {
       text-align: center;
+      align-content: center;
       }
