@@ -1,5 +1,6 @@
 body {
-  background: url(stab.png);
+  background-image:url('stab.png');
+  background-repeat:repeat;
   color: #860000;
   font-family: "Consolas", monospace;
   /*text-align:center;*/
